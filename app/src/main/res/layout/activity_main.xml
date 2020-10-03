@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="5dp"
+        android:hint="Enter Your Username!"
+        android:id="@+id/signinusernameid"
+
+        />
+ <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="5dp"
+     android:inputType="numberPassword"
+        android:hint="Enter Your Password!"
+        android:id="@+id/signinpassid"
+
+        />
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="5dp"
+     android:text="Sign In"
+        android:id="@+id/signinbuttonid"
+
+        />
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="5dp"
+     android:text="Sign Up Here"
+        android:id="@+id/signupherebuttonid"
+
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
